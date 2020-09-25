@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 
-static char names[] = {
+static char names[][] = {
     "Carry", // 0
     "Reserved", // 1
     "Parity", // 2
