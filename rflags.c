@@ -1,3 +1,4 @@
+/* Chris Barts 2020. Public Domain or Creative Commons 0. */
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
