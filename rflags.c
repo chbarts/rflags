@@ -19,6 +19,6 @@ static uint64_t rflags(void)
 
 int main(void)
 {
-    printf("%llx\n", (unsigned long long) rflags());
+    printf("0x%llx\n", (unsigned long long) rflags());
     return 0;
 }
