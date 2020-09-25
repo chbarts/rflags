@@ -58,7 +58,7 @@ static void print(uint64_t rflags)
             i++;
         } else {
             unsigned int val = (((rflags >> (i + 1)) & 1) << 1) | ((rflags >> i) & 1);
-            printf("%s: %x\n", names[i], val);
+            printf("%x\n", val);
             i += 2;
         }
     }
